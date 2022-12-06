@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Poppins, sans-serif;
+	background-color: #1D1E38;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	margin: 2px 10px 2px 10px;
+	padding: 0;
+	list-style-position: inside;
+}
+
+li {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+// log ind side
+.white-logind-box{
+	height: 281px;
+	width: 309px;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	margin-left: 40px;
+}
+
+.logind-tekst{
+	margin-left: 60px;
+	margin-bottom: 10px;
+	font-size: 36px;
+	font-family: "DIN Alternate", sans-serif;
+}
+
+.logind-input{
+	margin-left: 50px;
+}
+
+.form-control{
+	width: 280px;
+	height: 48px;
+	margin-left: 10px;
+	border-radius: .450rem;
+}
+
+.form-control::placeholder{
+	font-family: "Noto Sans Oriya", sans-serif;
+}
+
+
+
+
+
+.glemtadgangskode{
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	margin-left: 10px;
+	margin-top: -20px;
+	margin-bottom: 50px;
+	color: #03B9CD;
+}
+
+.logind-btn{
+	width: 300px;
+	height: 50px;
+	background-color: #4DA9BE;
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 22px;
+	border-radius: .450rem;
+}
+
+.logind-text{
+	margin-top: 5px;
+}
+
+
+
+
+
+.glemtadgangskode a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+// Pakke-beskrivelses side
+.upperbox{
+	background-color: white;
+	top: 10%;
+	left: 50%;
+	margin-left: 25px;
+	width: 319px;
+	height: 152px;
+}
+
+.fa-arrow-left{
+	font-size: 30px;
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.Zalando-text{
+	color: #4DA9BE;
+	font-size: 30px;
+	font-family: "DIN Alternate", sans-serif;
+	margin-left: 10px;
+}
+
+.yellow-circle{
+	height: 48px;
+	width: 48px;
+	background-color: #FEB501;
+	border-radius: 100%;
+	margin-right: 115px;
+	margin-top: 10px;
+}
+
+.callplusmail{
+	height: 42px;
+	width: 42px;
+	background-color: #4DA9BE;
+	border-radius: 100%;
+	margin-top: 10px;
+}
+
+.fa-ups{
+	font-size: 40px;
+	margin-left: 9px;
+	margin-top: 4px;
+}
+
+.fa-envelope{
+	font-size: 26px;
+}
+
+.fa-phone{
+	font-size: 26px;
+
+}
