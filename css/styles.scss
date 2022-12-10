@@ -1,5 +1,10 @@
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+a{
+	color: inherit !important;
 }
 
 body {
@@ -34,6 +39,76 @@ img {
 	height: auto;
 }
 
+// NAVBAR
+.mobile-nav{
+	background-color: #1D1E38;
+	position: fixed;
+	bottom: 0;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-left: -20px;
+}
+
+.bloc-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 600px){
+	.mobile-nav{
+		display: none;
+	}
+
+	.logind-pic{
+	object-fit: cover;
+	}
+}
+
+.fa-box-open{
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 11px;
+	position: relative;
+
+}
+
+.fa-gear{
+	font-size: 30px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.fa-plus{
+	font-size: 40px;
+	margin-left: 10px;
+	margin-top: 8px;
+	position: relative;
+}
+
+.bi-hexagon-fill{
+	margin-left: 10px;
+	margin-top: 8px;
+	position: absolute;
+}
+
+.callplusmail-navbar{
+	height: 60px;
+	width: 60px;
+	background-color: #4DA9BE;
+	border-radius: 100%;
+	margin-top: 10px;
+}
+
+.package-navbar{
+	margin-left: 20px;
+}
+
+.settings-navbar{
+	margin-right: 10px;
+}
 
 // log ind side
 .white-logind-box{
@@ -42,7 +117,11 @@ img {
 	background-color: white;
 	top: 50%;
 	left: 50%;
-	margin-left: 40px;
+	margin-left: 55px;
+}
+
+button a:hover{
+	background-color: #4DA9BE !important;
 }
 
 .logind-tekst{
@@ -52,8 +131,13 @@ img {
 	font-family: "DIN Alternate", sans-serif;
 }
 
+
 .logind-input{
-	margin-left: 50px;
+	margin-left: 60px;
+}
+
+.logind-pic{
+
 }
 
 .form-control{
@@ -90,9 +174,21 @@ img {
 	border-radius: .450rem;
 }
 
+.logind-btn:hover{
+	background-color: #4DA9BE;
+}
+
+
 .logind-text{
 	margin-top: 5px;
 }
+
+.logind-text a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
 
 
 
@@ -158,3 +254,209 @@ img {
 	font-size: 26px;
 
 }
+
+
+// all-packages side
+.little-orange-box{
+	width: 78px;
+	height: 35px;
+}
+
+.little-white-box{
+	width: 78px;
+	height: 35px;
+}
+
+
+// indstillings-side
+
+.settings-text{
+	color: #4DA9BE;
+	font-size: 30px;
+	font-family: "DIN Condensed", sans-serif;
+	margin-left: -21px;
+}
+
+.big-settings-box{
+	width: 279px;
+	height: 504px;
+}
+
+.icon_and_settingstitle{
+	margin-left: 46px;
+}
+
+.settings-title{
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.big-settings-box a{
+	text-decoration: none;
+}
+
+.settings-title a{
+	text-decoration: none;
+}
+
+.settings-title-description{
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 75px;
+}
+
+.fa-user{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.fa-bell{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.fa-language{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.fa-circle-question{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.fa-circle-exclamation{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.fa-share-nodes{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.fa-right-from-bracket{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.languages_iconand{
+	margin-left: 40px;
+}
+
+.logout{
+	margin-right: 20px;
+	font-size: 17px;
+}
+
+.backbtn{
+	margin-top: -2px;
+}
+
+// Live-tracking side
+
+.white-logind-box{
+	height: 281px;
+	width: 309px;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	margin-left: 55px;
+}
+
+.live-tracking-date{
+	font-size: 12px;
+	margin-left: -20px;
+}
+
+.arrived-text{
+	font-size: 13px;
+	font-style: normal;
+}
+
+.tracking-text{
+	margin-left: 8px;
+	font-style: italic;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.little-track-text{
+	font-size: 10px;
+	font-style: italic;
+}
+
+.fa-rectangle-list{
+	font-size: 25px;
+	margin-left: -10px;
+}
+
+.fa-industry{
+	font-size: 25px;
+	margin-left: -10px;
+}
+
+.fa-cube{
+	font-size: 25px;
+	margin-left: -10px;
+}
+
+.fa-truck{
+	font-size: 25px;
+	margin-left: -10px;
+}
+
+.fa-terminal{
+	font-size: 25px;
+	margin-left: -10px;
+}
+
+
+
+
+.livetracking-zalando{
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 23px;
+}
+
+.gm-style .place-card-medium{
+	display: none;
+}
+
+// Sprog-side - miniside
+
+
+#slct{
+	font-size: 18px;
+	border: 0.7px transparent;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	margin-left: -5px;
+}
+
+.language-title{
+	font-family: "DIN Alternate", sans-serif;
+	font-size: 15px;
+}
+
+// add-side
+.add-white-box{
+	width: 248px;
+	height: 170px;
+	margin-left: 60px;
+}
+
+.add-round-box{
+	width: 286px;
+	height: 256px;
+	margin-left: 42px;
+	margin-top: 55px;
+}
+
+
+
+
+
+
+

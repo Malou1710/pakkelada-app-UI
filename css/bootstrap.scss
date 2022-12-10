@@ -14,7 +14,10 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "primary": #007bff
+        "primary": #007bff,
+        "darkblue": #1D1E38,
+        "turquiose": #4DA9BE,
+        "orange": #FF6800,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
