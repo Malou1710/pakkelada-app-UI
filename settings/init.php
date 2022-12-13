@@ -5,7 +5,7 @@ define("CONFIG_LIVE", "0"); // 0: Test enviroment || 1: Live enviroment
 
 if(CONFIG_LIVE == 0){
     $DB_SERVER = "localhost:8889";
-    $DB_NAME = "film";
+    $DB_NAME = "pakkelada-filter";
     $DB_USER = "root";
     $DB_PASS = "root";
 }else{

@@ -10,6 +10,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/toggle-btn.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/b7f7f27b49.js" crossorigin="anonymous"></script>
 
@@ -21,14 +22,14 @@
 <nav class="mobile-nav">
     <a href="#" class="bloc-icon package-navbar">
         <div class="callplusmail-navbar">
-            <i class="fa-solid fa-box-open text-white"></i>
+            <i class="fa-solid fa-plus text-white"></i>
         </div>
     </a>
     <a href="#" class="bloc-icon settings-navbar">
         <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hexagon-fill text-white" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
         </svg>
-        <i class="fa-solid fa-plus text-dark"></i>
+        <i class="fa-solid fa-box-open text-dark"></i>
         </div>
     </a>
     <a href="#" class="bloc-icon plus-navbar">
@@ -37,7 +38,6 @@
         </div>
     </a>
 </nav>
-
 
 
 <div class="container-fluid">
@@ -54,12 +54,18 @@
 
 </div>
 
-<div class="container-fluid">
-    <div class="add-white-box bg-white justify-content-center d-flex">
+<div class="container-fluid justify-content-center d-flex">
+    <img class="add-box w-75" src="images/Stack_of_boxes.png">
 
     </div>
 
-    <div class="add-round-box rounded-5 bg-white">
+    <div class="add-round-box rounded-5 mt-5 bg-white">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="button"></div>
+                <button type="button" class="toggle-btn" onclick="leftClick()">Modtager</button>
+                <button type="button" class="toggle-btn" onclick="rightClick()">Afsender</button>
+            </div>
 
     </div>
 
