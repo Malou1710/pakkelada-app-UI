@@ -1,8 +1,9 @@
 <?php
 require "settings/init.php";
 
-$blogs = $db->sql("SELECT * FROM blogs");
+$pakkeafhentning = $db->sql("SELECT * FROM pakkeafhentning");
 
-foreach ($blogs as $blog){
-    echo $blog->blogName . "<br>";
+foreach ($pakkeafhentning as $pakkeafhent){
+    echo $pakkeafhent->pakkeNummer . " - " . $pakkeafhent->pakkeAfhentningskode . "<br>";
 }
+?>

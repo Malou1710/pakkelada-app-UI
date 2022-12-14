@@ -68,9 +68,9 @@ img {
 }
 
 .fa-box-open{
-	font-size: 30px;
-	margin-top: 15px;
-	margin-left: 11px;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 8px;
 	position: relative;
 
 }
@@ -82,9 +82,9 @@ img {
 }
 
 .fa-plus{
-	font-size: 40px;
-	margin-left: 10px;
-	margin-top: 8px;
+	font-size: 30px;
+	margin-left: 15px;
+	margin-top: 11px;
 	position: relative;
 }
 
@@ -137,7 +137,8 @@ button a:hover{
 }
 
 .logind-pic{
-
+	margin-left: 50px;
+	margin-top: 60px;
 }
 
 .form-control{
@@ -451,11 +452,86 @@ button a:hover{
 	width: 286px;
 	height: 256px;
 	margin-left: 42px;
-	margin-top: 55px;
+	margin-top: 20px;
 }
 
-// tilføj pakke
+.add-box{
+	margin-right: 20px;
+	margin-top: -20px;
+}
 
+.receivertosender{
+	width: 250px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+.reciever{
+	width: 90px;
+	height: 33px;
+	margin-right: 50px;
+	margin-top: 7px;
+	font-family: Roboto, sans-serif;
+}
+
+.sender{
+	width: 90px;
+	height: 33px;
+	margin-right: 50px;
+	margin-left: -10px;
+	margin-top: 7px;
+	font-family: Roboto, sans-serif;
+}
+
+// glemt adgangskode
+.forgotten-pass{
+	color: #4DA9BE;
+	font-size: 30px;
+	font-family: "DIN Alternate", sans-serif;
+	margin-left: -21px;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+.forgotten-pass-page2{
+	color: #4DA9BE;
+	font-size: 35px;
+	font-family: "DIN Alternate", sans-serif;
+	margin-left: 105px;
+	margin-top: -5px;
+	font-weight: bold;}
+
+.asking-lady{
+	margin-left: 72px;
+	margin-top: 60px;
+}
+
+.email-sent{
+	margin-left: 80px;
+	font-family: "DIN Alternate", sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.forgotten-logind{
+	width: 300px;
+	height: 50px;
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 22px;
+	border-radius: .450rem;
+	margin-left: -10px;
+	margin-top: 4px;
+}
+
+.forgotten-btn{
+	width: 300px;
+	height: 50px;
+	background-color: #4DA9BE;
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 22px;
+	border-radius: .450rem;
+	margin-left: 40px
+}
 
 
 
