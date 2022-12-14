@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="PakkeDB">
+  <component name="PublishConfigData">
     <serverData>
       <paths name="PHP server">
         <serverdata>
@@ -12,7 +12,7 @@
       <paths name="PakkeDB">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/pakkelada/pakkelada-app-UI" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
