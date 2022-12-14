@@ -18,16 +18,20 @@ export default class Pakkeafhentning{
         const row = document.createElement('div');
         row.classList.add('row');
 
-        for(const item of data){
+        for(const items of data){
             const col = document.createElement('div');
             col.classList.add('col-12');
 
             col.innerHTML= `
-                <div class="">         
-                         <div class="text-white">
+                <div class="container-fluid">         
+                     <div class="row">
+                        <div class="col-12">
+                            <div class="text-white bg-black mt-3">
                                 <p>Bestillingsnummer:${items.pakkeNummer}</p>
                                 <p>Afhentningskode:${items.pakkeAfhentningskode}</p>                                                                   
-                         </div>                                                     
+                         </div> 
+                        </div>
+                     </div>                                                  
                 </div>                    
           `;
             row.appendChild(col);
