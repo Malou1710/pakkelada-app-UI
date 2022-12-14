@@ -70,7 +70,7 @@ img {
 .fa-box-open{
 	font-size: 40px;
 	margin-top: 10px;
-	margin-left: 8px;
+	margin-left: 9px;
 	position: relative;
 
 }
@@ -83,8 +83,8 @@ img {
 
 .fa-plus{
 	font-size: 30px;
-	margin-left: 15px;
-	margin-top: 11px;
+	margin-left: 16px;
+	margin-top: 15px;
 	position: relative;
 }
 
@@ -442,6 +442,27 @@ button a:hover{
 }
 
 // add-side
+
+#btn-modtager{
+	background-color: #FF6800;
+	color: #fff;
+	border-radius: 25px;
+	border: none;
+	padding: 10px 20px;
+
+	margin-top: 5px;
+}
+
+#btn-afsender{
+	background-color: #1D1E38;
+	color: #fff;
+	border-radius: 25px;
+	border: none;
+	padding: 10px 20px;
+	margin-left: 55px;
+	margin-top: 5px;
+
+}
 .add-white-box{
 	width: 248px;
 	height: 170px;
@@ -452,43 +473,74 @@ button a:hover{
 	width: 286px;
 	height: 256px;
 	margin-left: 42px;
-	margin-top: 20px;
+	margin-top: -70px;
 }
 
 .add-box{
-	margin-right: 20px;
-	margin-top: -20px;
+	margin-left: 30px;
+	margin-top: -60px;
+	width: 80%;
 }
 
-.receivertosender{
-	width: 250px;
+.button-box{
+	width: 210px;
 	height: 50px;
-	margin-left: 20px;
+	background-color: #1D1E38;
+	border-radius: 25px;
+	margin-left: 38px;
+}
+
+// checkbox
+.add-check{
+	-webkit-appearance: none;
+	position: relative;
+	background-color: #1D1E38;
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+.add-check::before{
+	content: "";
+	position: absolute;
+	height: 40px;
+	width: 70px;
+	background-color: #FF6800;
+	border-radius: 20px;
+	transform: scale(1.1);
+	transition: 4s ease-in-out;
+	top: 12%;
+	margin-left: -30px;
+}
+
+.add-check:checked{
+	background-color: transparent;
+	left: 82px;
+}
+
+.modaf{
+	margin-left: 10px;
 }
 
 .reciever{
-	width: 90px;
-	height: 33px;
-	margin-right: 50px;
-	margin-top: 7px;
-	font-family: Roboto, sans-serif;
+	margin-right: 20px;
 }
 
 .sender{
-	width: 90px;
-	height: 33px;
-	margin-right: 50px;
-	margin-left: -10px;
-	margin-top: 7px;
-	font-family: Roboto, sans-serif;
+	margin-top: 10px;
 }
+
+
+
+
+
 
 // glemt adgangskode
 .forgotten-pass{
 	color: #4DA9BE;
 	font-size: 30px;
 	font-family: "DIN Alternate", sans-serif;
-	margin-left: -21px;
+	margin-left: -10px;
 	margin-top: -5px;
 	font-weight: bold;
 }
@@ -533,6 +585,47 @@ button a:hover{
 	margin-left: 40px
 }
 
+.logind-btn2{
+	width: 300px;
+	height: 50px;
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 22px;
+	border-radius: .450rem;
+}
+
+//make user
+.make-user{
+	margin-left: 40px;
+}
+
+.user-check:checked ~ .checkmark {
+	background-color: black;
+}
+
+#text{
+	font-family: sans-serif;
+}
+
+
+.little-usertext{
+	font-size: 15px;
+	margin-left: 50px;
+	font-family: Roboto, sans-serif;
+}
+
+.user-check{
+	width: 30px;
+	height: 30px;
+}
+
+.form-control{
+	font-family: Roboto, sans-serif;
+}
+
+#btnSubmit{
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 20px;
+}
 
 
 

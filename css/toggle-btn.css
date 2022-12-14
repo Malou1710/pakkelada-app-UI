@@ -35,4 +35,16 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
-
+div {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

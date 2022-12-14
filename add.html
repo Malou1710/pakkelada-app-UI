@@ -10,7 +10,6 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/toggle-btn.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/b7f7f27b49.js" crossorigin="anonymous"></script>
 
@@ -20,7 +19,7 @@
 <body>
 
 <nav class="mobile-nav">
-    <a href="#" class="bloc-icon package-navbar">
+    <a href="add.html" class="bloc-icon package-navbar">
         <div class="callplusmail-navbar">
             <i class="fa-solid fa-plus text-white"></i>
         </div>
@@ -30,9 +29,8 @@
             <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
         </svg>
         <i class="fa-solid fa-box-open text-dark"></i>
-        </div>
     </a>
-    <a href="#" class="bloc-icon plus-navbar">
+    <a href="settings.html" class="bloc-icon plus-navbar">
         <div class="callplusmail-navbar">
             <i class="fa-solid fa-gear text-white"></i>
         </div>
@@ -40,7 +38,7 @@
 </nav>
 
 
-<div class="container-fluid">
+<div class="container-fluid bg-darkblue">
     <div class="row mt-5 mb-5">
         <div class="col-3 backbtn text-white">
             <div class="backbtn">
@@ -50,24 +48,29 @@
         <div class="col-7 settings-text text-white text-center">
             Tilføj pakke
         </div>
-    </div>
-
-</div>
-
-<div class="container-fluid justify-content-center d-flex">
-    <img class="add-box w-75" src="images/Stack_of_boxes.png">
 
     </div>
+    <img class="add-box" src="images/Stack-of-boxes-1.gif"></div>
 
-    <div class="add-round-box rounded-5 mt-5 bg-white">
-        <div class="form-box">
-            <div class="button-box">
-                <div id="button"></div>
-                <button type="button" class="toggle-btn" onclick="leftClick()">Modtager</button>
-                <button type="button" class="toggle-btn" onclick="rightClick()">Afsender</button>
+
+
+<div class="add-round-box position-absolute rounded-5 bg-white">
+    <div class="">
+        <div class="button-box position-relative mt-5 text-white">
+            <div class="modaf position-absolute justify-content-center d-flex">
+                <div class="reciever">Modtager</div>
+                <div class="sender">Afsender</div>
             </div>
-
+            <input class="add-check border-1 border-dark" type="checkbox">
+        </div>
     </div>
+
+</div>
+
+
+
+<div class="container-fluid justify-content-center d-flex position-relative">
+
 
 </div>
 
@@ -78,6 +81,8 @@
 
 
 
+
+<script src="js/script.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
