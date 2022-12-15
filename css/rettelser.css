@@ -1,3 +1,16 @@
+.menypakkeshop{
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.shop-pic{
+    margin-left: 40px;
+}
+
+.pakkeshop-header{
+    width: 100%;
+}
+
 .menypakkeshop ul{
     list-style: none;
 }
@@ -44,4 +57,14 @@ li i{
 .pil{
     display: block;
     text-decoration: none;
+}
+
+.adresse{
+    font-family: "DIN Condensed", sans-serif;
+    font-size: 18px;
+}
+
+.solsikkevej{
+    font-family: "Noto Sans Kannada", sans-serif;
+    font-size: 18px;
 }

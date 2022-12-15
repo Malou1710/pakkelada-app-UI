@@ -52,7 +52,7 @@ if (!empty($_POST["data"])){
 <head>
     <meta charset="utf-8">
 
-    <title>Indsæt til database</title>
+    <title>Opret bruger</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -135,9 +135,9 @@ if (!empty($_POST["data"])){
             </div>
 
 
-            <div class="col-12 text-white">
+            <div class="col-12 checkandtext text-white p-2 mt-3 justify-content-center d-flex">
                 <input class="user-check border-1 border-dark" type="checkbox">
-                Accepter
+                <div class="accept-check p-1">Accepter <a href="#" target="_blank">vilkår og betingelser</a> </div>
             </div>
 
             <div class="col-12 col-md-6 offset-md-6 mt-5">
