@@ -9,6 +9,40 @@ if (!empty($_POST["data"])){
 
     $db->sql($sql, $bind, false);
 
+    echo "<body style= 
+            
+            	'background: #1D1E38; color: white;
+            
+          '</body>
+          
+          <div class='container-fluid' style='margin-top: 600px;'>
+            <div class='row'>
+                <div class='col-12'>
+                    <h1 style='font-size: 90px; text-align: center; font-family: Roboto, sans-serif;'>Din bruger er nu oprettet!</h1>
+                </div>  
+            </div>
+            <div class='row'>
+                <div class='col-12'>
+                    <h2 style=
+            'justify-content: center; 
+            display: flex; 
+            font-family: DIN Condensed, sans serif;
+            '><a style='text-decoration: none; color: white;' href='index.html'>
+            <button style='font-family: Roboto, sans-serif; border-radius: 25px; padding: 1px 30px; background-color: #4DA9BE; color: #fff; margin-top: 20px;' type='button'>
+            <h2 style='font-weight: normal; font-size: 60px; font-family: Din condensed, sans-serif'>Til PAKKELADA-appen!</h2>
+</button>
+            </a>
+                </div>  
+            </div>
+          </div>
+         
+          
+          
+            ";
+
+    exit();
+
+//    indsætte echo her, for besked efter oprettelse af bruger!
 }
 
 ?>
@@ -36,25 +70,6 @@ if (!empty($_POST["data"])){
 <body>
 
 
-<nav class="mobile-nav">
-    <a href="#" class="bloc-icon package-navbar">
-        <div class="callplusmail-navbar">
-            <i class="fa-solid fa-plus text-white"></i>
-        </div>
-    </a>
-    <a href="#" class="bloc-icon settings-navbar">
-        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hexagon-fill text-white" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
-        </svg>
-        <i class="fa-solid fa-box-open text-dark"></i>
-        </div>
-    </a>
-    <a href="#" class="bloc-icon plus-navbar">
-        <div class="callplusmail-navbar">
-            <i class="fa-solid fa-gear text-white"></i>
-        </div>
-    </a>
-</nav>
 
 <div class="container-fluid">
     <div class="row mt-5 mb-3">
@@ -73,7 +88,7 @@ if (!empty($_POST["data"])){
     </div>
     <div class="row">
         <div class="little-usertext text-white text-start">
-            Brug venligst den samme e-mail eller telefonnummer<br>, som du har brugt til bestilling af pakker
+            Brug venligst den samme e-mail eller telefonnummer,<br> som du har brugt til bestilling af pakker
         </div>
     </div>
 
@@ -120,8 +135,9 @@ if (!empty($_POST["data"])){
             </div>
 
 
-            <div class="col-12">
+            <div class="col-12 text-white">
                 <input class="user-check border-1 border-dark" type="checkbox">
+                Accepter
             </div>
 
             <div class="col-12 col-md-6 offset-md-6 mt-5">
