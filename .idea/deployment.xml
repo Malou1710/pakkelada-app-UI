@@ -12,7 +12,7 @@
       <paths name="PakkeDB">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/pakkelada/pakkelada-app-UI" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
