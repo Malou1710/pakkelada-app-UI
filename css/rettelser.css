@@ -6,3 +6,42 @@
     width: 100%;
     height: 100%;
 }
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li img{
+    display: block;
+    text-decoration: none;
+}
+
+li i{
+    display: block;
+    text-decoration: none;
+}
+
+.overskriftogpil {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.overskriftogpil li {
+    float: left;
+}
+
+.overskriftogpil h3{
+    display: block;
+    text-decoration: none;
+}
+
+.pil{
+    display: block;
+    text-decoration: none;
+}

@@ -25,11 +25,16 @@ export default class Pakkeafhentning{
             col.innerHTML= `
                 <div class="container-fluid">         
                      <div class="row">
-                        <div class="col-12">
-                            <div class="text-white bg-black mt-3">
-                                <p>Bestillingsnummer:${items.pakkeNummer}</p>
-                                <p>Afhentningskode:${items.pakkeAfhentningskode}</p>                                                                   
-                         </div> 
+                        <div class="col-12 rounded-5 text-black bg-white mt-3 p-3 ikonpil">
+                            <ul class="ulliste">                               
+                                <li><img src="images/zalando" class="mb-2 zalando" alt="Zalando"></li>
+                                <li style="float: right" class="mx-3 mt-1"><i style="color: #FF6800" class="pil fa-solid fa-arrow-right fa-2xl"></i></li>
+                                <li style="float: right"><img src="images/postnord" class="mx-1 mb-2" alt="postnord"></li>                           
+                            </ul>
+                            <div>                           
+                                <p class="mt-2"><strong>Bestillingsnummer: </strong>${items.pakkeNummer}</p>
+                                <p><strong>Afhentningskode: </strong>${items.pakkeAfhentningskode}</p>                                                                                               
+                            </div> 
                         </div>
                      </div>                                                  
                 </div>                    
