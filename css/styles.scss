@@ -482,6 +482,25 @@ button:focus {
 	border-radius: .450rem;
 }
 
+.form-control4{
+	color: black;
+	width: 280px;
+	height: 48px;
+	margin-left: 10px;
+	border-radius: .450rem;
+	font-family: Roboto, sans-serif;
+}
+
+.form-control4::placeholder{
+	color: black;
+	width: 280px;
+	height: 48px;
+	margin-left: 10px;
+	border-radius: .450rem;
+	font-family: arial, sans-serif;
+
+}
+
 .ok-button{
 	padding: 10px 30px;
 	margin-left: 60px;
@@ -572,6 +591,16 @@ button:focus {
 .sender{
 	margin-top: 10px;
 }
+
+// pakkenummer-side
+.rundknap{
+	margin-left: 10px;
+}
+
+.pakkenummer{
+	margin-bottom: 75px;
+}
+
 
 
 
