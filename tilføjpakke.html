@@ -10,11 +10,32 @@
 
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/2430132205.js" crossorigin="anonymous"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+
+<nav class="mobile-nav">
+    <a href="#" class="bloc-icon package-navbar">
+        <div class="callplusmail-navbar">
+            <i class="fa-solid fa-plus text-white"></i>
+        </div>
+    </a>
+    <a href="#" class="bloc-icon settings-navbar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hexagon-fill text-white" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
+        </svg>
+        <i class="fa-solid fa-box-open text-dark"></i>
+
+    </a>
+    <a href="settings.html" class="bloc-icon plus-navbar">
+        <div class="callplusmail-navbar">
+            <i class="fa-solid fa-gear text-white"></i>
+        </div>
+    </a>
+</nav>
 <div>
     <a class="text-decoration-none" href="pakkeoversigt.html">
         <h1 class="bg-white text-center p-2 fw-bold" style="color:#6F5C45 ">PAKKELADA</h1>
@@ -23,11 +44,22 @@
 
     <div class="container" >
       <div class="row justify-content-center">
-        <p class="col-12 h2 text-white text-center mt-4 fs-1 fw-bold">Tilføj pakke</p>
+          <div class="row mt-4 pakkenummer">
+              <div class="col-3 backbtn text-white">
+                  <a href="add.html">
+                      <div class="backbtn">
+                          <i class="fa-solid fa-arrow-left"></i>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-7 settings-text text-white text-center">
+                  Tilføj pakke
+              </div>
+          </div>
 
-        <p class="col-7 mt-4 bg-white text-left p-2 rounded-3">Pakke-nummer</p>
+          <input class="form-control4 bg-white rounded-3 mt-2 border-0 shadow-sm" type="text" id="scan" placeholder="Pakkenummer">
 
-        <a class="col-8 btn btn-primary btn-sm mt-5 text-white bg-turquiose rounded-3" href="#" role="button" class="col-12 rundknap">Tilføj</a>
+        <a class="col-8 btn btn-primary btn-sm mt-5 text-white bg-turquiose rounded-3" href="#" role="button" style="font-family: arial, sans-serif; width: 350px; height: 38px; margin-right: 1px;" class="col-12 rundknap">Tilføj</a>
       </div>
     </div>
 

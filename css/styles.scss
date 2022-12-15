@@ -120,6 +120,10 @@ img {
 	margin-left: 55px;
 }
 
+.orcreateuser{
+	font-size: 20px;
+}
+
 button a:hover{
 	background-color: #4DA9BE !important;
 }
@@ -443,6 +447,64 @@ button a:hover{
 
 // add-side
 
+.form-control2{
+	width: 213px;
+	height: 41px;
+	margin-top: 40px;
+	border-radius: .450rem;
+}
+
+.form-control2::placeholder{
+	color: white !important;
+	text-align: start;
+	padding: 15px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+.form-control2:active{
+	color: white;
+}
+
+.form-control3{
+	width: 280px;
+	height: 48px;
+	margin-left: 10px;
+	border-radius: .450rem;
+}
+
+.form-control4{
+	color: black;
+	width: 280px;
+	height: 48px;
+	margin-left: 10px;
+	border-radius: .450rem;
+	font-family: Roboto, sans-serif;
+}
+
+.form-control4::placeholder{
+	color: black;
+	width: 280px;
+	height: 48px;
+	margin-left: 10px;
+	border-radius: .450rem;
+	font-family: arial, sans-serif;
+
+}
+
+.ok-button{
+	padding: 10px 30px;
+	margin-left: 60px;
+}
 #btn-modtager{
 	background-color: #FF6800;
 	color: #fff;
@@ -530,6 +592,16 @@ button a:hover{
 	margin-top: 10px;
 }
 
+// pakkenummer-side
+.rundknap{
+	margin-left: 10px;
+}
+
+.pakkenummer{
+	margin-bottom: 75px;
+}
+
+
 
 
 
@@ -616,6 +688,7 @@ button a:hover{
 .user-check{
 	width: 30px;
 	height: 30px;
+	margin-left: 10px;
 }
 
 .form-control{
@@ -626,6 +699,8 @@ button a:hover{
 	font-family: "DIN Condensed", sans-serif;
 	font-size: 20px;
 }
+
+
 
 
 
