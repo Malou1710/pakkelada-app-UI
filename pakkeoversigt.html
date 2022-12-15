@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pakkeoversigt</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/rettelser.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/2430132205.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div>
+    <a class="text-decoration-none" href="pakkeoversigt.html">
+        <h1 class="bg-white text-center p-2 fw-bold" style="color:#6F5C45 ">PAKKELADA</h1>
+    </a>
+</div>
+
+<h1 class="text-white text-center fw-bold mt-2">Alle pakker</h1>
+
+
+<div class="container afhentning">
+    <div class="overskriftliste">
+    <ul class="overskriftogpil">
+    <li class="pil"><i class="fa-solid fa-exclamation fa-3x pilleikon" style="color: white"></i></li>
+    <li class="overskrift mt-3"><h3 class="text-white afhentningoverskrift">Afhentning</h3></li>
+    </ul>
+
+    </div>
+    <div class="pakkeafhentning">
+        <div class="items">
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="module">
+    import Pakkeafhentning from "./js/pakkeafhentning";
+
+    const pakkeafhentning = new Pakkeafhentning();
+    pakkeafhentning.init();
+</script>
+
+
+</body>
+
+</html>
