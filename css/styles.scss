@@ -27,6 +27,7 @@ ul, ol {
 
 li {
 	margin: 0;
+	list-style: none;
 }
 
 p {
@@ -714,6 +715,52 @@ button:focus {
 #btnSubmit{
 	font-family: "DIN Condensed", sans-serif;
 	font-size: 20px;
+}
+
+
+//return side
+.return-postnord{
+	width: 500px;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+.return-check[type="checkbox"]{
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+}
+
+.checkandpic{
+	margin-left: 30px;
+}
+
+.return-pic{
+	width: 50px;
+	margin-left: 20px;
+}
+.return-descrip{
+	font-family: Roboto, sans-serif;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.up-pakke{
+	margin-top: -20px;
+	font-family: "DIN Condensed", sans-serif;
+	font-size: 22px;
+}
+
+.packnumber{
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.fa-copy{
+	font-size: 12px;
+	margin-top: -20px;
+	margin-left: 208px;
 }
 
 

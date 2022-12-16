@@ -136,7 +136,7 @@ if (!empty($_POST["data"])){
 
 
             <div class="col-12 checkandtext text-white p-2 mt-3 justify-content-center d-flex">
-                <input class="user-check border-1 border-dark" type="checkbox">
+                <input class="user-check border-1 border-dark" id="checkbox" type="checkbox">
                 <div class="accept-check p-1">Accepter <a href="#" target="_blank">vilkår og betingelser</a> </div>
             </div>
 
