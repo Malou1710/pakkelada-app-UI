@@ -28,17 +28,16 @@ $pakkelada = $db->sql("SELECT * FROM pakkehentet WHERE  pakkeId =:pakkeId;", $bi
 <body>
 
 <nav class="mobile-nav">
-    <a href="#" class="bloc-icon package-navbar">
+    <a href="add.html" class="bloc-icon package-navbar">
         <div class="callplusmail-navbar">
             <i class="fa-solid fa-plus text-white"></i>
         </div>
     </a>
-    <a href="#" class="bloc-icon settings-navbar">
+    <a href="pakkeoversigt.html" class="bloc-icon settings-navbar">
         <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hexagon-fill text-white" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
         </svg>
         <i class="fa-solid fa-box-open text-dark"></i>
-        </div>
     </a>
     <a href="settings.html" class="bloc-icon plus-navbar">
         <div class="callplusmail-navbar">
@@ -162,7 +161,7 @@ $pakkelada = $db->sql("SELECT * FROM pakkehentet WHERE  pakkeId =:pakkeId;", $bi
 
         <a class="btn btn-primary mt-2 w-75 bg-turquiose fw-bold text-white rounded-5 border-0 pb-2" href="pakkeshop.html" role="button">Pakkeshop åbningstider</a>
 
-        <a class="btn btn-primary mt-2 w-75 bg-orange fw-bold text-white rounded-5 border-0 mt-2 pt-2 pb-2 mb-2" href="#" role="button">Returnér</a>
+        <a class="btn btn-primary mt-2 w-75 bg-orange fw-bold text-white rounded-5 border-0 mt-2 pt-2 pb-2 mb-2" href="return.html" role="button">Returnér</a>
     </div>
 </div>
 

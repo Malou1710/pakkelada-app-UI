@@ -19,17 +19,16 @@
 <body>
 
 <nav class="mobile-nav">
-    <a href="#" class="bloc-icon package-navbar">
+    <a href="add.html" class="bloc-icon package-navbar">
         <div class="callplusmail-navbar">
             <i class="fa-solid fa-plus text-white"></i>
         </div>
     </a>
-    <a href="#" class="bloc-icon settings-navbar">
+    <a href="pakkeoversigt.html" class="bloc-icon settings-navbar">
         <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hexagon-fill text-white" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
         </svg>
         <i class="fa-solid fa-box-open text-dark"></i>
-        </div>
     </a>
     <a href="settings.html" class="bloc-icon plus-navbar">
         <div class="callplusmail-navbar">
@@ -90,7 +89,7 @@
 <div class="container hentet">
     <div class="overskriftliste">
         <ul class="overskriftogpil">
-            <li class="overskrift mt-3"><h3 class="text-white afhentningoverskrift">hentet</h3></li>
+            <li class="overskrift mt-3"><h3 class="text-white afhentningoverskrift">Hentet</h3></li>
         </ul>
 
     </div>
@@ -107,21 +106,21 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <script type="module">
-    import Pakkesendt from "./js/pakkesendt";
+    import Pakkesendt from "./js/pakkesendt.js";
 
     const pakkesendt = new Pakkesendt();
     pakkesendt.init();
 </script>
 
 <script type="module">
-    import Pakkeafhentning from "./js/pakkeafhentning";
+    import Pakkeafhentning from "./js/pakkeafhentning.js";
 
     const pakkeafhentning = new Pakkeafhentning();
     pakkeafhentning.init();
 </script>
 
 <script type="module">
-    import Pakkehentet from "./js/pakkehentet";
+    import Pakkehentet from "./js/pakkehentet.js";
 
     const pakkehentet= new Pakkehentet();
     pakkehentet.init();

@@ -5,6 +5,7 @@
 
 a{
 	color: inherit !important;
+	text-decoration: none;
 }
 
 body {
@@ -419,7 +420,12 @@ button a:hover{
 }
 
 
-
+.livetracking-text{
+	color: #4DA9BE;
+	font-size: 30px;
+	font-family: "DIN Condensed", sans-serif;
+	margin-left: -21px;
+}
 
 .livetracking-zalando{
 	font-family: "Helvetica Neue", sans-serif;
@@ -536,7 +542,8 @@ button:focus {
 	width: 286px;
 	height: 256px;
 	margin-left: 42px;
-	margin-top: -70px;
+	margin-top: -100px;
+	margin-bottom: 200px;
 }
 
 .add-box{
@@ -706,6 +713,13 @@ button:focus {
 }
 
 //return side
+
+.return-text{
+	color: #4DA9BE;
+	font-size: 30px;
+	font-family: "DIN Condensed", sans-serif;
+	margin-left: -10px;
+}
 .return-postnord{
 	width: 500px;
 	margin-left: 20px;
@@ -729,7 +743,7 @@ button:focus {
 .return-descrip{
 	font-family: Roboto, sans-serif;
 	margin-top: 20px;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .up-pakke{
@@ -810,3 +824,5 @@ button:focus {
 	color: #86CEDA !important;
 	font-weight: bold;
 }
+
+

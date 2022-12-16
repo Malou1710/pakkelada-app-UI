@@ -1,7 +1,7 @@
 <?php
 require "classes/classDB.php";
 
-define("CONFIG_LIVE", "1"); // 0: Test enviroment || 1: Live enviroment
+define("CONFIG_LIVE", "0"); // 0: Test enviroment || 1: Live enviroment
 
 if(CONFIG_LIVE == 0){
     $DB_SERVER = "localhost:8889";

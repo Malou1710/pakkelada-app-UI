@@ -27,7 +27,7 @@ if (!empty($_POST["data"])){
             'justify-content: center; 
             display: flex; 
             font-family: DIN Condensed, sans serif;
-            '><a style='text-decoration: none; color: white;' href='index.html'>
+            '><a style='text-decoration: none; color: white;' href='pakkeoversigt.html'>
             <button style='font-family: Roboto, sans-serif; border-radius: 25px; padding: 1px 30px; background-color: #4DA9BE; color: #fff; margin-top: 20px;' type='button'>
             <h2 style='font-weight: normal; font-size: 60px; font-family: Din condensed, sans-serif'>Til PAKKELADA-appen!</h2>
 </button>
