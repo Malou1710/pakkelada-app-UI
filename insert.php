@@ -52,7 +52,7 @@ if (!empty($_POST["data"])){
 <head>
     <meta charset="utf-8">
 
-    <title>Opret bruger</title>
+    <title>Indsæt til database</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">

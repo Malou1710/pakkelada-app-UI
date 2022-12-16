@@ -1,11 +1,11 @@
-export default class Pakkeafhentning{
+export default class Pakkesendt{
     constructor() {
         this.data = {
             password: 4700
         }
 
-        this.rootElem = document.querySelector('.pakkeafhentning')
-        this.items = this.rootElem.querySelector('.items');
+        this.rootElem = document.querySelector('.pakkesendt')
+        this.itemsto = this.rootElem.querySelector('.itemsto');
     }
 
     async init(){
@@ -18,14 +18,14 @@ export default class Pakkeafhentning{
         const row = document.createElement('div');
         row.classList.add('row');
 
-        for(const items of data){
+        for(const itemsto of data){
             const col = document.createElement('div');
             col.classList.add('col-12');
 
             col.innerHTML= `
                 <div class="container-fluid">         
                      <div class="row">
-                        <a  href="pakkeoversigt2.php?pakkeId=${items.pakkeId}" class="text-decoration-none">
+                        <a  href="pakkeoversigt.php?pakkeId=${itemsto.pakkeId}" class="text-decoration-none">
                             <div class="col-12 rounded-5 text-black bg-white mt-3 p-3 ikonpil">
                                 <ul class="ulliste">                               
                                     <li><img src="images/zalando" class="mb-2 zalando" alt="Zalando"></li>
@@ -33,8 +33,8 @@ export default class Pakkeafhentning{
                                     <li style="float: right"><img src="images/postnord" class="mx-1 mb-2" alt="postnord"></li>                           
                                 </ul>
                                 <div>                           
-                                    <p class="mt-2"><strong>Bestillingsnummer: </strong>${items.pakkeNummer}</p>
-                                    <p><strong>Afhentningskode: </strong>${items.pakkeAfhentningskode}</p>                                                                                               
+                                    <p class="mt-2"><strong>Bestillingsnummer: </strong>${itemsto.pakkeNummer}</p>
+                                    <p><strong>Afhentningskode: </strong>${itemsto.pakkeAfhentningskode}</p>                                                                                               
                                 </div> 
                             </div>
                         </a>    
@@ -44,17 +44,16 @@ export default class Pakkeafhentning{
             row.appendChild(col);
         }
 
-        this.items.innerHTML='';
-        this.items.appendChild(row);
+        this.itemsto.innerHTML='';
+        this.itemsto.appendChild(row);
 
     }
 
     async getData(){
-        const response = await fetch('api2.php', {
+        const response = await fetch('api3.php', {
             method: "POST",
             body: JSON.stringify(this.data)
         });
         return await response.json();
     }
 }
-

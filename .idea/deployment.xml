@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="mamp">
+  <component name="PublishConfigData" serverName="PakkeDB">
     <serverData>
-      <paths name="mamp">
+      <paths name="PHP server">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/pakkelada-3semester" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="PakkeDB">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/pakkelada/pakkelada-app-UI" />
           </mappings>
         </serverdata>
       </paths>

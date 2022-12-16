@@ -17,14 +17,60 @@
 </head>
 
 <body>
-<div>
-    <a class="text-decoration-none" href="pakkeoversigt.html">
-        <h1 class="bg-white text-center p-2 fw-bold" style="color:#6F5C45 ">PAKKELADA</h1>
+
+<nav class="mobile-nav">
+    <a href="#" class="bloc-icon package-navbar">
+        <div class="callplusmail-navbar">
+            <i class="fa-solid fa-plus text-white"></i>
+        </div>
     </a>
+    <a href="#" class="bloc-icon settings-navbar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hexagon-fill text-white" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
+        </svg>
+        <i class="fa-solid fa-box-open text-dark"></i>
+        </div>
+    </a>
+    <a href="settings.html" class="bloc-icon plus-navbar">
+        <div class="callplusmail-navbar">
+            <i class="fa-solid fa-gear text-white"></i>
+        </div>
+    </a>
+</nav>
+
+    <div>
+        <a class="text-decoration-none" href="pakkeoversigt.html">
+            <h1 class="bg-white text-center p-2 fw-bold" style="color:#6F5C45 ">PAKKELADA</h1>
+        </a>
+    </div>
+
+    <div class="text-white text-center bg-turquiose p-3">
+        <a class="btn btn-primary bg-white border-0 text-dark rounded-4 knappertop" href="#" role="button">Alle</a>
+        <a class="btn btn-primary bg-white border-0 text-dark rounded-4 knappertop" href="#" role="button">Sendt</a>
+        <a class="btn btn-primary bg-white border-0 text-dark rounded-4 knappertop" href="#" role="button">Afhentning</a>
+        <a class="btn btn-primary bg-white border-0 text-dark rounded-4 knappertop" href="#" role="button">Hentet</a>
+    </div>
+
+    <div class="bg-white text-center pt-4 pb-4">
+    <a class="btn btn-primary bg-turquiose border-0 text-white rounded-2 filterknap fw-bold" href="#" role="button">Filtrere</a>
+    </div>
+
+    <h1 class="text-white text-center fw-bold mt-3">Alle pakker</h1>
+
+<div class="container sendt">
+    <div class="overskriftliste">
+        <ul class="overskriftogpil">
+            <li class="pil"><img src="images/pakkeafsted.png" class="pilleikon mt-3 w-60 h-60"></li>
+            <li class="overskrift mt-3"><h3 class="text-white afhentningoverskrift">Sendt</h3></li>
+        </ul>
+
+    </div>
+    <div class="pakkesendt">
+        <div class="itemsto">
+
+        </div>
+    </div>
 </div>
-
-<h1 class="text-white text-center fw-bold mt-2">Alle pakker</h1>
-
 
 <div class="container afhentning">
     <div class="overskriftliste">
@@ -39,7 +85,20 @@
 
         </div>
     </div>
+</div>
 
+<div class="container hentet">
+    <div class="overskriftliste">
+        <ul class="overskriftogpil">
+            <li class="overskrift mt-3"><h3 class="text-white afhentningoverskrift">hentet</h3></li>
+        </ul>
+
+    </div>
+    <div class="pakkehentet">
+        <div class="itemstre">
+
+        </div>
+    </div>
 </div>
 
 
@@ -48,11 +107,27 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <script type="module">
+    import Pakkesendt from "./js/pakkesendt";
+
+    const pakkesendt = new Pakkesendt();
+    pakkesendt.init();
+</script>
+
+<script type="module">
     import Pakkeafhentning from "./js/pakkeafhentning";
 
     const pakkeafhentning = new Pakkeafhentning();
     pakkeafhentning.init();
 </script>
+
+<script type="module">
+    import Pakkehentet from "./js/pakkehentet";
+
+    const pakkehentet= new Pakkehentet();
+    pakkehentet.init();
+</script>
+
+
 
 
 </body>

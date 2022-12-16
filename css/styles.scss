@@ -5,7 +5,6 @@
 
 a{
 	color: inherit !important;
-	text-decoration: none;
 }
 
 body {
@@ -74,10 +73,7 @@ img {
 	margin-top: 10px;
 	margin-left: 9px;
 	position: relative;
-}
 
-.fa-box-open a{
-	text-decoration: none;
 }
 
 .fa-gear{
@@ -126,9 +122,7 @@ img {
 }
 
 .orcreateuser{
-	font-size: 21px;
-	font-family: "DIN Condensed", sans-serif;
-	margin-left: 7px;
+	font-size: 20px;
 }
 
 button a:hover{
@@ -471,8 +465,6 @@ button a:hover{
 
 
 
-
-
 input:focus,
 select:focus,
 textarea:focus,
@@ -543,12 +535,12 @@ button:focus {
 .add-round-box{
 	width: 286px;
 	height: 256px;
-	margin-left: 55px;
+	margin-left: 42px;
 	margin-top: -70px;
 }
 
 .add-box{
-	margin-left: 41px;
+	margin-left: 30px;
 	margin-top: -60px;
 	width: 80%;
 }
@@ -697,15 +689,7 @@ button:focus {
 .user-check{
 	width: 30px;
 	height: 30px;
-	margin-left: 15px;
-}
-
-.checkandtext{
-	margin-left: -125px;
-}
-
-.accept-check{
-	margin-right: -180px;
+	margin-left: 10px;
 }
 
 .form-control{
@@ -717,6 +701,9 @@ button:focus {
 	font-size: 20px;
 }
 
+.pilleikon{
+	margin-right: 10px !important;
+}
 
 //return side
 .return-postnord{
@@ -765,5 +752,61 @@ button:focus {
 
 
 
+//apioversigt
 
+.rightboks{
+	margin-left: 20px  !important;
+	margin-right: 13px !important;
+	width: 160px;
+}
 
+.leftboks{
+	margin-left: 13px !important;
+	margin-right: 20px !important;
+	width: 160px;
+}
+
+.trackknap{
+	width: 130px;
+	height: 75px;
+	margin-left: 190px;
+	margin-top: 10px;
+}
+
+.levadresse{
+	margin-bottom: 10px;
+}
+
+.levadresse p{
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+.strtrack{
+	font-size: 30px;
+	font-family: "DIN Condensed", sans-serif;
+}
+
+.kodestr{
+	font-size: 20px !important;
+}
+
+.knappertop{
+	font-size: 10px !important;
+	padding: 8px 20px 8px 20px !important;
+	margin-left: 5px;
+}
+
+.filterknap{
+	padding: 15px 135px 15px 135px;
+}
+
+.storknap{
+	margin-bottom: 200px !important;
+}
+
+.zaloverskrift{
+	color: #86CEDA !important;
+	font-weight: bold;
+}
