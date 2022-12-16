@@ -1,7 +1,7 @@
 <?php
 require "settings/init.php";
 $bind =[":pakkeId"=> $_GET["pakkeId"]];
-$pakkelada = $db->sql("SELECT * FROM pakkesendt WHERE  pakkeId =:pakkeId;", $bind);
+$pakkelada = $db->sql("SELECT * FROM pakkehentet WHERE  pakkeId =:pakkeId;", $bind);
 ?>
 
 <!DOCTYPE html>
@@ -172,6 +172,6 @@ $pakkelada = $db->sql("SELECT * FROM pakkesendt WHERE  pakkeId =:pakkeId;", $bin
 </body>
 </html>
 
-    <?php
-    }
-    ?>
+<?php
+}
+?>

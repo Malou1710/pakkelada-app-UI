@@ -700,7 +700,66 @@ button:focus {
 	font-size: 20px;
 }
 
+.pilleikon{
+	margin-right: 10px !important;
+}
 
 
+//apioversigt
 
+.rightboks{
+	margin-left: 20px  !important;
+	margin-right: 13px !important;
+	width: 160px;
+}
 
+.leftboks{
+	margin-left: 13px !important;
+	margin-right: 20px !important;
+	width: 160px;
+}
+
+.trackknap{
+	width: 130px;
+	height: 75px;
+	margin-left: 190px;
+	margin-top: 10px;
+}
+
+.levadresse{
+	margin-bottom: 10px;
+}
+
+.levadresse p{
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+.strtrack{
+	font-size: 30px;
+	font-family: "DIN Condensed", sans-serif;
+}
+
+.kodestr{
+	font-size: 20px !important;
+}
+
+.knappertop{
+	font-size: 10px !important;
+	padding: 8px 20px 8px 20px !important;
+	margin-left: 5px;
+}
+
+.filterknap{
+	padding: 15px 135px 15px 135px;
+}
+
+.storknap{
+	margin-bottom: 200px !important;
+}
+
+.zaloverskrift{
+	color: #86CEDA !important;
+	font-weight: bold;
+}
